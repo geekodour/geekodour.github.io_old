@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>First post in my blog using gitpushblog - </title>
+        <meta name="description" content="a simple blog">
+        <link rel="icon" href="/assets/favicon.png">
+        <link rel="stylesheet" href="/assets/main.css">
+        <link rel="canonical" href="/">
+        <link rel="alternate" type="application/atom+xml" title="geekodour&#39;s blog" href="/feed.xml"/>
+
+        <script>
+              // window.blogInfo gets passed into each page
+            // 3 properties of blogInfo are available of every page
+            // bc: blog _config.yml as javascript object
+            // tc: theme _config.yml as javascript object
+            // baseurl: baseurl of the site
+            window.blogInfo = {
+                    bc: {"meta":{"blog_name":"geekodour's blog","blog_theme":"default-plain","blog_description":"a simple blog","domain":"geekodour.github.io","engine":"nunjucks","userpage":true,"baseurl":null},"username":"geekodour","author":"geekodour","repo":"geekodour.github.io","posts_per_page":3,"comments_per_page":3,"comment":{"disabled":false,"isGithub":true,"isDisqus":false,"isGithubAuth":false,"disqus_id":"geekodour"},"others":{"template_cat_posts":true},"firebaseConfig":{"apiKey":"AIzaSyAZSJ1d1Sr9MnTK-__3D8SrwXjjQf6EML4","authDomain":"myblog-2b0ba.firebaseapp.com","projectId":"myblog-2b0ba"}},
+                    tc: {"title":"Theme Name","description":"Theme Description that can be long","google_verify":"epFgX0s_0RM3CdjwFcsg8s9ZBOLyaIUH-o","google_analytics":"UA-XXXXXXX-X","author_name":"YOUR_NAME","author_email":"datboi@gmail.com","author_gravatar":"2b38b1b0e7e08b69379bd61582adf0c8","twitter_username":"geekodour","github_username":"geekodour","baseurl":"","permalink":"/notes/:title","timezone":"Asia/Kuala_Lumpur"},
+                    baseurl: ''
+            };
+
+  window.blogInfo.pageType = 'post';
+  window.blogInfo.postId = '1';
+        </script>
+	</head>
+
+	<body>
+
+<aside class="logo">
+	<a href="/"> geekodour&#39;s blog </a>
+</aside>
+<section>
+<aside class="" style="">
+  <a class="" href="/">Home</a>
+  <a class="" href="/about">About</a>
+  <a class="" href="/work">Work</a>
+  <a class="" href="/blog">Blog</a>
+  <!-- signout buttons are not necessary if you not using github comments with auth, might just remove them -->
+  <a id="signout_button" class="" href="" style="display:none">Signout</a>
+</aside>
+</section>
+
+<article>
+
+	<div class="post-meta">
+		<h1>First post in my blog using gitpushblog</h1>
+		<time>28/7/2017</time>
+          <a href="/category/opensource" title="" rel="category tag">opensource</a>
+	</div>
+
+    <div class="post-content">
+        <p>So this is the first post I am writing using gitpushblog, a static blog generator that sucks but I like it.
+This will probably be a topography test, so let&#39;s see.</p>
+<p>Also I&#39;ll be blogging in various topics if this works. k?</p>
+<h1 id="heading-1">Heading 1</h1>
+<p>that was a heading h1</p>
+<h2 id="heading-2">Heading 2</h2>
+<p>that was a heading h2</p>
+<pre><code class="lang-javascript">const foo = &#39;bar&#39;;
+const life = () =&gt; {
+        console.log(foo);
+};
+</code></pre>
+<p>some blockquotes,</p>
+<blockquote>
+<p>Hey I am something wise</p>
+<p>Another one</p>
+<p>Another one</p>
+</blockquote>
+<p><strong>ENOUGH OF THAT</strong>, <em>let&#39;s see what else you got</em></p>
+<h2 id="youtube-videos-">Youtube videos?</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z_CfRxf3kPI" frameborder="0" allowfullscreen></iframe>
+
+<p>Works!</p>
+<h2 id="what-else-we-got-">What else we got?</h2>
+<ul>
+<li>Images</li>
+<li>Links maybe?</li>
+</ul>
+<h3 id="image">Image</h3>
+<p><img src="https://i.imgur.com/4cChCM1.jpg" alt="alt text me"></p>
+<h3 id="links">Links</h3>
+<p><a href="https://i.imgur.com/4cChCM1.jpg">click me to go to heaven</a></p>
+
+    </div>
+
+<!-- navigation buttons for pervious and next posts -->
+<div class="page-navigation" style="text-align: left">
+
+
+    <br/>
+
+
+</div>
+<!-- NOTE: the classes used in this snippet are used in the client side javascript -->
+<!-- So it's recommended you make your styles over these classes or add more class but not remove them -->
+<div id="comments" class="comments">
+
+  <!-- if GithubAuth is enabled and github comments are enabled, the following div will show a comment box -->
+    <div class="goto-github" style="text-align:center">
+        <a id="" class="button" href="https://github.com/geekodour/geekodour.github.io/issues/1">Go to github issue to comment</a>
+    </div>
+
+
+  <!-- github comments/disqus comments container, added by client javascript -->
+  <h4>Comments</h4>
+  <div id="comments_container" class="commentlist"></div>
+  <!-- end of github comments/disqus container -->
+
+  <!-- loadmore buttons for github comments -->
+    <div id="loadmore_button_container" class="" style="text-align:center">
+      <div id="loadmore_button" class="button is-loading">Load more</div>
+    </div>
+
+</div>
+</article>
+
+
+
+<div class="footer">
+  <span class="">&copy; geekodour</span>
+  <span class=""></span>
+</div>
+
+
+
+          <script src="/assets/vendors.js"></script>
+          <script src="/assets/main.js"></script>
+
+	</body>
+
+</html>

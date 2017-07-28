@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geekodour&#39;s blog</title>
+    <description>a simple blog</description>
+    <link></link>
+        <item>
+          <title>First post in my blog using gitpushblog</title>
+          <description></description>
+          <pubDate>2017-07-28T14:57:48Z</pubDate>
+          <link>/posts/first-post-in-my-blog-using-gitpushblog</link>
+        </item>
+  </channel>
+</rss>
