@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>geekodour&#39;s blog</title>
+        <title>It takes time - </title>
         <meta name="description" content="a simple blog">
         <link rel="icon" href="/assets/favicon.png">
         <link rel="stylesheet" href="/assets/main.css">
@@ -23,7 +23,8 @@
                     baseurl: ''
             };
 
-  window.blogInfo.pageType = 'index';
+  window.blogInfo.pageType = 'post';
+  window.blogInfo.postId = '2';
         </script>
 	</head>
 
@@ -43,34 +44,61 @@
 </aside>
 </section>
 
-<section>
-	<ul>
-	    <li>
-	    	<div class="post-date">
-	    		<span>28/7/2017</span>
-	    	</div>
-	    	<div class="title">
-                <a href="/posts/it-takes-time">It takes time</a>
-	    	</div>
-	    </li>
-	    <li>
-	    	<div class="post-date">
-	    		<span>28/7/2017</span>
-	    	</div>
-	    	<div class="title">
-                <a href="/posts/first-post-in-my-blog-using-gitpushblog">First post in my blog using gitpushblog</a>
-	    	</div>
-	    </li>
-    </ul>
+<article>
 
-<!-- paginations are part of index.html for blogposts -->
-<div class="pagenav">
+	<div class="post-meta">
+		<h1>It takes time</h1>
+		<time>28/7/2017</time>
+          <a href="/category/life" title="" rel="category tag">life</a>
+          <a href="/category/programming" title="" rel="category tag">programming</a>
+	</div>
 
+    <div class="post-content">
+        <p>I am a slow learner, I&#39;ve been programming for almost two years now but I know much less than people who started with me.
+I entering my 20s this year, so this scares me much but I guess it just takes time.
+So I&#39;ll keep on doing what I am doing.</p>
+<blockquote>
+<p>ps. just a sample post</p>
+<p>currently playing: <a href="https://www.youtube.com/watch?v=0HQqXllXpfQ">Mac Demarco</a></p>
+</blockquote>
+
+    </div>
+
+<!-- navigation buttons for pervious and next posts -->
+<div class="page-navigation" style="text-align: left">
+
+    <a rel="prev" href="/posts/first-post-in-my-blog-using-gitpushblog">
+            <strong>Next Article:</strong> First post in my blog using gitpushblog
+    </a>
+
+    <br/>
 
 
 </div>
+<!-- NOTE: the classes used in this snippet are used in the client side javascript -->
+<!-- So it's recommended you make your styles over these classes or add more class but not remove them -->
+<div id="comments" class="comments">
 
-</section>
+  <!-- if GithubAuth is enabled and github comments are enabled, the following div will show a comment box -->
+    <div class="goto-github" style="text-align:center">
+        <a id="" class="button" href="https://github.com/geekodour/geekodour.github.io/issues/2">Go to github issue to comment</a>
+    </div>
+
+
+  <!-- github comments/disqus comments container, added by client javascript -->
+  <h4>Comments</h4>
+  <div id="comments_container" class="commentlist"></div>
+  <!-- end of github comments/disqus container -->
+
+  <!-- loadmore buttons for github comments -->
+    <div id="loadmore_button_container" class="" style="text-align:center">
+      <div id="loadmore_button" class="button is-loading">Load more</div>
+    </div>
+
+</div>
+</article>
+
+
 
 <div class="footer">
   <span class="">&copy; geekodour</span>

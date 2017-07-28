@@ -5,6 +5,12 @@
     <description>a simple blog</description>
     <link></link>
         <item>
+          <title>It takes time</title>
+          <description></description>
+          <pubDate>2017-07-28T15:40:22Z</pubDate>
+          <link>/posts/it-takes-time</link>
+        </item>
+        <item>
           <title>First post in my blog using gitpushblog</title>
           <description></description>
           <pubDate>2017-07-28T14:57:48Z</pubDate>
