@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>life - </title>
+        <title>Don&#39;t waste your time making your own open source project - </title>
         <meta name="description" content="a simple blog">
         <link rel="icon" href="/assets/favicon.png">
         <link rel="stylesheet" href="/assets/main.css">
@@ -23,8 +23,8 @@
                     baseurl: ''
             };
 
-  window.blogInfo.pageType = 'category';
-  window.blogInfo.label = 'life';
+  window.blogInfo.pageType = 'post';
+  window.blogInfo.postId = '3';
         </script>
 	</head>
 
@@ -45,15 +45,64 @@
 </section>
 
 <article>
-                 <div class="">
-                   <a href="/posts/dont-waste-your-time-making-your-own-open-source-project">Don&#39;t waste your time making your own open source project</a>
-                 </div>
-                 <div class="">
-                   <a href="/posts/it-takes-time">It takes time</a>
-                 </div>
 
-           <!-- if others.template_cat_posts is false then will add a loadmore button for ajax -->
+
+    <div class="center">
+	    <div class="post-meta">
+	    	<h1>Don&#39;t waste your time making your own open source project</h1>
+	    	<time>29/7/2017</time>
+              <a href="/category/life" title="" rel="category tag">life</a>
+              <a href="/category/opensource" title="" rel="category tag">opensource</a>
+	    </div>
+	</div>
+
+    <div class="divider"></div>
+
+    <div class="post-content">
+        <p>Everyone should be making something of their own, but not when there is something more important to do.
+I wasted almost half of my summer creating a stupid static site generator because I didn&#39;t like jekyell.
+But in the end, nothing really cams out of it. I am the only user of that generator.</p>
+<p>But the good thing is I love using it. The only regret is that I planned soing some theory related study this summer,
+I could not do that properly so again I would say If you have more important stuff to do, then don&#39;t waste time on doing your own open source project.</p>
+<p>Also this is no advice, just saying.</p>
+
+    </div>
+
+<!-- navigation buttons for pervious and next posts -->
+<div class="page-navigation" style="text-align: left">
+
+    <a rel="prev" href="/posts/it-takes-time">
+            <strong>Next Article:</strong> It takes time
+    </a>
+
+    <br/>
+
+
+</div>
+<!-- NOTE: the classes used in this snippet are used in the client side javascript -->
+<!-- So it's recommended you make your styles over these classes or add more class but not remove them -->
+<div id="comments" class="comments">
+
+  <!-- if GithubAuth is enabled and github comments are enabled, the following div will show a comment box -->
+    <div class="goto-github" style="text-align:center">
+        <a id="" class="button" href="https://github.com/geekodour/geekodour.github.io/issues/3">Go to github issue to comment</a>
+    </div>
+
+
+  <!-- github comments/disqus comments container, added by client javascript -->
+  <h4>Comments</h4>
+  <div id="comments_container" class="commentlist"></div>
+  <!-- end of github comments/disqus container -->
+
+  <!-- loadmore buttons for github comments -->
+    <div id="loadmore_button_container" class="" style="text-align:center">
+      <div id="loadmore_button" class="button is-loading">Load more</div>
+    </div>
+
+</div>
 </article>
+
+
 
 <div class="footer">
   <span class="">&copy; geekodour</span>
