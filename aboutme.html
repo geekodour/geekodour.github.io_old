@@ -1,86 +1,85 @@
 <!DOCTYPE html>
-<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
-<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
-<!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
-  <head>
-    <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.7.7/hack.css"/>
-  <title>About Hrishikesh</title>
-  <style>
-        #container {
-                padding: 3em;
-        }
-  </style>
-  </head>
-  <body class="hack">
-          <div class="main container">
-          <h1>About me</h1>
-          <p>I am Hrishikesh Barman, I am 20 I love to code and I like maths but I suck at it so I am relearning it, also I want to be a network person someday working with all sorts of crazy servers,routers and switches.</p><br/>
-          <p> Favorites:- text-editor: vim, distro: arch linux, food: momo, activity: learning new things.</p>
-          <hr/>
-          <h2 id="contribution">My open source project contributions in March 2017</h2>
-          <h3>Patches</h3>
-          <ul>
-                  <li>
-                          <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1345268">Mozilla Thunderbird patch(1345268)</a>
-                          - resolved and accepted
-                  </li>
-                  <li>
-                          <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1347111">Mozilla Firefox css issue with Checkboxes(1347111)</a>
-                          - resolved and accepted
-                  </li>
-                  <li>
-                          <a href="https://github.com/mozilla/brackets/pull/647">Mozilla Thimble issue in brackets(647)</a>
-                          - closed
-                  </li>
-                  <li>
-                          <a href="https://github.com/crypto-browserify/browserify-aes/issues/39">Browserify AES issue(39)</a>
-                          - resolved and accepted
-                  </li>
-                  <li>Check my <a href="https://github.com/geekodour">github profile</a> for more contribution information</li>
-                  <li>Check my Bugzilla Profile for more patches</li>
-          </ul>
-          <hr/>
-          <h2>My own projects and client projects</h2>
-          <h3 id="projects">Own Projects</h3>
-          Most of these are unfinished or incomplete, mostly because my debit card is not accepted anywhere(DO,google playstore,Heroku, you name it),
-          so I get demotivated and never complete them, but one day I'll when I get time.
-          <ul>
-                  <li><a href="http://nasty-news.surge.sh/">NewsMap</a> - Measure Happiness of countries based on top 10 Headlines - Django, React, Redux, D3, Google Geo Maps</li>
-                  <li>
-                          <a href="https://github.com/geekodour/Author-Google-Extension-">Author Chrome Extension</a>
-                          - A chrome extension that shows you pictures of book author when browsing books
-                          on Amazon and Flipkart, unfortunately google store does not accept my card, so I'll complete it when I get my card approved</li>
-                  <li>
-                          <a href="https://github.com/geekodour/somfl">SOMFL</a>
-                          - Offline Bookmark Organizer made in Javascript and Python(Flask) it works great but I didn't feel like working on it anymore, 
-                          it works good anyways, Installation instructions will be updated.
-                  </li>
-                  <li>Will be adding more</li>
-          <ul>
-          <h3>Client Projects</h3>
-          Most of my client projects were related to server administration, which I can't really show case but here are few web dev related projects.
-          I am learning advance python and c these days, so expect some advanced projects in the future(If everything goes according to plan)
-          <ul>
-                  <li>
-                        <a href="https://lit-scrubland-90658.herokuapp.com/">Innolearn</a>
-                        - Uses NLP to generate journal entry from question - Django, React, Redux, Python, JavaScript
-                        , Source is private (I've linked the testing site on heroku)
-                  </li>
-                  <li>
-                          <a href="http://cswcommittee.com/">Static site for CSW committee</a>
-                          - a static site hosted on surge for a local student activist group - HTML, CSS, theme motifications
-                  </li>
-                  <li>
-                          <a href="http://paintersdiary.in/">PaintersDiary</a>
-                          - a very simple and ecommerce site made with express.js and frontend technologies (does not look and feel very good)
-                  </li>
-                  <li>Will be adding more</li>
-          <ul>
-          </div>
-  </body>
-</html>
 
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>geekodour&#39;s blog</title>
+        <meta name="description" content="a simple blog">
+        <link rel="icon" href="/assets/favicon.png">
+        <link rel="stylesheet" href="/assets/main.css">
+        <link rel="canonical" href="/">
+        <link rel="alternate" type="application/atom+xml" title="geekodour&#39;s blog" href="/feed.xml"/>
+
+        <script>
+              // window.blogInfo gets passed into each page
+            // 3 properties of blogInfo are available of every page
+            // bc: blog _config.yml as javascript object
+            // tc: theme _config.yml as javascript object
+            // baseurl: baseurl of the site
+            window.blogInfo = {
+                    bc: {"meta":{"blog_name":"geekodour's blog","blog_theme":"default-plain","blog_description":"a simple blog","domain":"geekodour.github.io","engine":"nunjucks","userpage":true,"baseurl":null},"username":"geekodour","author":"geekodour","repo":"geekodour.github.io","posts_per_page":3,"comments_per_page":3,"comment":{"disabled":false,"isGithub":true,"isDisqus":false,"isGithubAuth":false,"disqus_id":"geekodour"},"others":{"template_cat_posts":true},"firebaseConfig":{"apiKey":"AIzaSyAZSJ1d1Sr9MnTK-__3D8SrwXjjQf6EML4","authDomain":"myblog-2b0ba.firebaseapp.com","projectId":"myblog-2b0ba"}},
+                    tc: {"title":"Theme Name","description":"Theme Description that can be long","google_verify":"epFgX0s_0RM3CdjwFcsg8s9ZBOLyaIUH-o","google_analytics":"UA-XXXXXXX-X","author_name":"YOUR_NAME","author_email":"datboi@gmail.com","author_gravatar":"2b38b1b0e7e08b69379bd61582adf0c8","twitter_username":"geekodour","github_username":"geekodour","baseurl":"","permalink":"/notes/:title","timezone":"Asia/Kuala_Lumpur"},
+                    baseurl: ''
+            };
+
+  window.blogInfo.pageType = 'page';
+        </script>
+	</head>
+
+	<body>
+
+<aside class="logo">
+	<a href="/"> geekodour&#39;s blog </a>
+</aside>
+<section>
+<aside class="" style="">
+  <a class="" href="/">Home</a>
+  <a class="" href="/about">About</a>
+  <a class="" href="/work">Work</a>
+  <a class="" href="/blog">Blog</a>
+  <!-- signout buttons are not necessary if you not using github comments with auth, might just remove them -->
+  <a id="signout_button" class="" href="" style="display:none">Signout</a>
+</aside>
+</section>
+
+
+<article>
+	<h1 class="">About Page</h1>
+    I am a 3rd year Computer Science student and I try to contribute to opensource sometimes.
+    My primary interests are <b>networking programming, distributed systems and systems administration.</b>
+    <br/> <br/>
+    My academic scores are average, but I am working on it.
+    <br/> <br/>
+    I do all kinds of freelancing work from web data extraction, server maintainance,
+    WordPress setups to building webapps with modern JavaScript frameworks.
+    <br/> <br/>
+    Other than that, I like to create small side projects and webapps. You'll find some in my <a href="https://github.com/geekodour">github page</a>
+	<h2 class="">Skills</h2>
+	<h4 class="">Programming and Scripting Languages</h4>
+    Python, JavaScript, C, C++, Bash, awk, sed. Not in order.
+	<h4 class="">Systems</h4>
+    Basic Kernel Modules, RPCs, build systems and packaging for arch and debian systems.
+	<h4 class="">Software Development</h4>
+    git, ci, scientific python, network programming in C and python and nodejs, automation scripts.
+	<h4 class="">Web Development</h4>
+    All things JavaScript, Mostly React&Redux, VanillaJS when needed. Django, Flask, Celery, DRF, GraphQL.
+    NodeJS, express, mongodb and postgres for databses. Browser Extensions.
+	<h4 class="">Others</h4>
+    Data Extraction, Data visualization
+</article>
+
+
+<div class="footer">
+  <span class="">&copy; geekodour</span>
+  <span class=""></span>
+</div>
+
+
+
+          <script src="/assets/vendors.js"></script>
+          <script src="/assets/main.js"></script>
+
+	</body>
+
+</html>
