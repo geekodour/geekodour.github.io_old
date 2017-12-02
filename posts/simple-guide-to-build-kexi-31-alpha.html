@@ -127,7 +127,7 @@ Buildtime Dependencies:</p>
 during the build process.</p>
 </blockquote>
 <h2 id="getting-the-sources">Getting the Sources</h2>
-<p>If you don&#39;t have a KDE developer account, then you have to get the sources from github.
+<p>If you don&#39;t have a KDE developer account, then you have to get the sources from anongit.kde.org, If you have kde developer access, then you can use <em>git.kde.org</em> instead of <em>anongit.kde.org</em>
 So <code>cd</code> into <code>~/kde/src</code> and run the following commands:</p>
 <pre><code>$ git clone git@anongit.kde.org/kdb.git
 $ git clone git@anongit.kde.org/kproperty.git
@@ -152,26 +152,22 @@ learning CMake would be a good idea.</p>
 <pre><code>$ cd ~/kde/src/kdb
 $ cmake -H. -B~/kde/build/kdb -DCMAKE_INSTALL_PREFIX=~/kde/inst5
 $ cd ~/kde/build/kdb
-$ make -j4
 $ make install -j4
 </code></pre><p><strong>Building and Installing KProperty</strong></p>
 <pre><code>$ cd ~/kde/src/kproperty
 $ cmake -H. -B~/kde/build/kproperty -DCMAKE_INSTALL_PREFIX=~/kde/inst5
 $ cd ~/kde/build/kproperty
-$ make -j4
 $ make install -j4
 </code></pre><p><strong>Building and Installing KReport</strong></p>
 <pre><code>$ cd ~/kde/src/kreport
 $ cmake -H. -B~/kde/build/kreport -DCMAKE_INSTALL_PREFIX=~/kde/inst5
 $ cd ~/kde/build/kreport
-$ make -j4
 $ make install -j4
 </code></pre><p>Now that the build dependencies are installed, let&#39;s install Kexi. </br>
 <strong>Building and Installing Kexi</strong></p>
 <pre><code>$ cd ~/kde/src/kexi
 $ cmake -H. -B~/kde/build/kexi -DCMAKE_INSTALL_PREFIX=~/kde/inst5
 $ cd ~/kde/build/kexi
-$ make -j4
 $ make install -j4
 </code></pre><blockquote>
 <p><strong>Note:</strong> If there are warnings about missing optional packages just use your package manager to install them.</p>
